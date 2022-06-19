@@ -11,7 +11,12 @@ public class GithubCicdActionsApplication {
 
 	@GetMapping("/welcome")
 	public String welcome(){
-		return "Welcome to javatechie !";
+		return "Welcome to shashank !";
+	}
+
+	@GetMapping("/hello")
+	public String hello(){
+		return "Welcome to hello world !";
 	}
 
 	public static void main(String[] args) {
